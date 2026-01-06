@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ACT001",
+    "reservationId": "RES001",
+    "guestId": "G001",
+    "roomId": "102",
+    "activityType": "Spa Service",
+    "description": "Full Body Massage",
+    "quantity": 1,
+    "unitPrice": 2500,
+    "totalPrice": 2500,
+    "status": "Completed",
+    "createdAt": "2024-02-15T16:00:00Z",
+    "completedAt": "2024-02-15T17:30:00Z"
+  },
+  {
+    "id": "ACT002",
+    "reservationId": "RES001",
+    "guestId": "G001",
+    "roomId": "102",
+    "activityType": "Room Service",
+    "description": "Dinner for 2",
+    "quantity": 1,
+    "unitPrice": 1200,
+    "totalPrice": 1200,
+    "status": "Completed",
+    "createdAt": "2024-02-15T19:00:00Z",
+    "completedAt": "2024-02-15T20:30:00Z"
+  },
+  {
+    "id": "ACT003",
+    "reservationId": "RES002",
+    "guestId": "G002",
+    "roomId": "202",
+    "activityType": "Shuttle Service",
+    "description": "Airport Transfer",
+    "quantity": 2,
+    "unitPrice": 800,
+    "totalPrice": 1600,
+    "status": "Completed",
+    "createdAt": "2024-02-14T10:00:00Z",
+    "completedAt": "2024-02-14T11:00:00Z"
+  },
+  {
+    "id": "ACT004",
+    "reservationId": "RES002",
+    "guestId": "G002",
+    "roomId": "202",
+    "activityType": "Extra Bed",
+    "description": "Extra bed for child",
+    "quantity": 1,
+    "unitPrice": 500,
+    "totalPrice": 500,
+    "status": "Completed",
+    "createdAt": "2024-02-14T15:00:00Z",
+    "completedAt": "2024-02-14T15:30:00Z"
+  },
+  {
+    "id": "ACT005",
+    "reservationId": "RES003",
+    "guestId": "G003",
+    "roomId": "302",
+    "activityType": "Amenities",
+    "description": "Champagne and Flowers",
+    "quantity": 1,
+    "unitPrice": 3500,
+    "totalPrice": 3500,
+    "status": "Completed",
+    "createdAt": "2024-02-16T14:30:00Z",
+    "completedAt": "2024-02-16T15:00:00Z"
+  },
+  {
+    "id": "ACT006",
+    "reservationId": "RES003",
+    "guestId": "G003",
+    "roomId": "302",
+    "activityType": "Spa Service",
+    "description": "Couple's Spa Package",
+    "quantity": 1,
+    "unitPrice": 4500,
+    "totalPrice": 4500,
+    "status": "Pending",
+    "createdAt": "2024-02-17T10:00:00Z",
+    "completedAt": null
+  }
+]
+

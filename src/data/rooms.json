@@ -1,0 +1,103 @@
+[
+  {
+    "id": "101",
+    "number": "101",
+    "type": "Standard",
+    "floor": 1,
+    "rate": 1500,
+    "status": "Available",
+    "maxOccupancy": 2,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar"]
+  },
+  {
+    "id": "102",
+    "number": "102",
+    "type": "Standard",
+    "floor": 1,
+    "rate": 1500,
+    "status": "Occupied",
+    "maxOccupancy": 2,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar"]
+  },
+  {
+    "id": "103",
+    "number": "103",
+    "type": "Standard",
+    "floor": 1,
+    "rate": 1500,
+    "status": "Cleaning",
+    "maxOccupancy": 2,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar"]
+  },
+  {
+    "id": "201",
+    "number": "201",
+    "type": "Deluxe",
+    "floor": 2,
+    "rate": 2500,
+    "status": "Available",
+    "maxOccupancy": 3,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi"]
+  },
+  {
+    "id": "202",
+    "number": "202",
+    "type": "Deluxe",
+    "floor": 2,
+    "rate": 2500,
+    "status": "Occupied",
+    "maxOccupancy": 3,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi"]
+  },
+  {
+    "id": "203",
+    "number": "203",
+    "type": "Deluxe",
+    "floor": 2,
+    "rate": 2500,
+    "status": "Available",
+    "maxOccupancy": 3,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi"]
+  },
+  {
+    "id": "301",
+    "number": "301",
+    "type": "Suite",
+    "floor": 3,
+    "rate": 4500,
+    "status": "Available",
+    "maxOccupancy": 4,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi", "Living Room", "Kitchenette"]
+  },
+  {
+    "id": "302",
+    "number": "302",
+    "type": "Suite",
+    "floor": 3,
+    "rate": 4500,
+    "status": "Occupied",
+    "maxOccupancy": 4,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi", "Living Room", "Kitchenette"]
+  },
+  {
+    "id": "303",
+    "number": "303",
+    "type": "Suite",
+    "floor": 3,
+    "rate": 4500,
+    "status": "Maintenance",
+    "maxOccupancy": 4,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi", "Living Room", "Kitchenette"]
+  },
+  {
+    "id": "401",
+    "number": "401",
+    "type": "Presidential",
+    "floor": 4,
+    "rate": 8000,
+    "status": "Available",
+    "maxOccupancy": 6,
+    "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Balcony", "Jacuzzi", "Living Room", "Full Kitchen", "Dining Room", "Butler Service"]
+  }
+]
+

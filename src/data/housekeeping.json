@@ -1,0 +1,55 @@
+[
+  {
+    "id": "HK001",
+    "roomId": "103",
+    "roomNumber": "103",
+    "taskType": "Checkout Cleaning",
+    "status": "In Progress",
+    "assignedTo": "Housekeeper A",
+    "priority": "High",
+    "createdAt": "2024-02-14T11:00:00Z",
+    "startedAt": "2024-02-14T11:15:00Z",
+    "completedAt": null,
+    "notes": "Standard checkout cleaning"
+  },
+  {
+    "id": "HK002",
+    "roomId": "203",
+    "roomNumber": "203",
+    "taskType": "Deep Cleaning",
+    "status": "Completed",
+    "assignedTo": "Housekeeper B",
+    "priority": "Medium",
+    "createdAt": "2024-02-13T09:00:00Z",
+    "startedAt": "2024-02-13T09:30:00Z",
+    "completedAt": "2024-02-13T12:00:00Z",
+    "notes": "Monthly deep cleaning completed"
+  },
+  {
+    "id": "HK003",
+    "roomId": "303",
+    "roomNumber": "303",
+    "taskType": "Maintenance",
+    "status": "Pending",
+    "assignedTo": "Maintenance Team",
+    "priority": "High",
+    "createdAt": "2024-02-14T08:00:00Z",
+    "startedAt": null,
+    "completedAt": null,
+    "notes": "AC unit needs repair"
+  },
+  {
+    "id": "HK004",
+    "roomId": "101",
+    "roomNumber": "101",
+    "taskType": "Daily Cleaning",
+    "status": "Completed",
+    "assignedTo": "Housekeeper C",
+    "priority": "Low",
+    "createdAt": "2024-02-14T07:00:00Z",
+    "startedAt": "2024-02-14T07:30:00Z",
+    "completedAt": "2024-02-14T08:30:00Z",
+    "notes": "Routine daily cleaning"
+  }
+]
+

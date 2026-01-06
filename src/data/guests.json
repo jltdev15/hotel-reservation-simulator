@@ -1,0 +1,73 @@
+[
+  {
+    "id": "G001",
+    "firstName": "Juan",
+    "lastName": "Dela Cruz",
+    "email": "juan.delacruz@email.com",
+    "phone": "+63 912 345 6789",
+    "address": "123 Main Street, Manila",
+    "nationality": "Filipino",
+    "idType": "Passport",
+    "idNumber": "P12345678",
+    "preferences": ["Non-smoking", "High floor"],
+    "loyaltyPoints": 500,
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "G002",
+    "firstName": "Maria",
+    "lastName": "Santos",
+    "email": "maria.santos@email.com",
+    "phone": "+63 923 456 7890",
+    "address": "456 Oak Avenue, Quezon City",
+    "nationality": "Filipino",
+    "idType": "Driver's License",
+    "idNumber": "DL98765432",
+    "preferences": ["WiFi", "Room service"],
+    "loyaltyPoints": 1200,
+    "createdAt": "2023-12-20T10:30:00Z"
+  },
+  {
+    "id": "G003",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@email.com",
+    "phone": "+1 555 123 4567",
+    "address": "789 Broadway, New York",
+    "nationality": "American",
+    "idType": "Passport",
+    "idNumber": "US87654321",
+    "preferences": ["Balcony", "City view"],
+    "loyaltyPoints": 250,
+    "createdAt": "2024-02-01T14:20:00Z"
+  },
+  {
+    "id": "G004",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+44 20 7946 0958",
+    "address": "321 Oxford Street, London",
+    "nationality": "British",
+    "idType": "Passport",
+    "idNumber": "GB11223344",
+    "preferences": ["Early check-in", "Extra towels"],
+    "loyaltyPoints": 800,
+    "createdAt": "2024-01-10T09:15:00Z"
+  },
+  {
+    "id": "G005",
+    "firstName": "Li",
+    "lastName": "Wei",
+    "email": "li.wei@email.com",
+    "phone": "+86 138 0013 8000",
+    "address": "555 Nanjing Road, Shanghai",
+    "nationality": "Chinese",
+    "idType": "Passport",
+    "idNumber": "CN55667788",
+    "preferences": ["Quiet room", "King bed"],
+    "loyaltyPoints": 300,
+    "createdAt": "2024-02-05T11:45:00Z"
+  }
+]
+

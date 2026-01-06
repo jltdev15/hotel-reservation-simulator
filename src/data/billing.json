@@ -1,0 +1,90 @@
+[
+  {
+    "id": "INV001",
+    "reservationId": "RES004",
+    "guestId": "G004",
+    "roomId": "103",
+    "roomNumber": "103",
+    "checkIn": "2024-02-12T14:00:00Z",
+    "checkOut": "2024-02-14T11:00:00Z",
+    "roomCharges": 3000,
+    "activityCharges": 0,
+    "tax": 360,
+    "total": 3360,
+    "paymentStatus": "Paid",
+    "paymentMethod": "Credit Card",
+    "paymentDate": "2024-02-14T10:45:00Z",
+    "invoiceDate": "2024-02-14T10:45:00Z",
+    "items": [
+      {
+        "description": "Room 103 - Standard (2 nights)",
+        "quantity": 2,
+        "unitPrice": 1500,
+        "total": 3000
+      }
+    ]
+  },
+  {
+    "id": "INV002",
+    "reservationId": "RES001",
+    "guestId": "G001",
+    "roomId": "102",
+    "roomNumber": "102",
+    "checkIn": "2024-02-15T14:00:00Z",
+    "checkOut": null,
+    "roomCharges": 0,
+    "activityCharges": 3700,
+    "tax": 444,
+    "total": 4144,
+    "paymentStatus": "Pending",
+    "paymentMethod": null,
+    "paymentDate": null,
+    "invoiceDate": "2024-02-17T12:00:00Z",
+    "items": [
+      {
+        "description": "Full Body Massage",
+        "quantity": 1,
+        "unitPrice": 2500,
+        "total": 2500
+      },
+      {
+        "description": "Dinner for 2",
+        "quantity": 1,
+        "unitPrice": 1200,
+        "total": 1200
+      }
+    ]
+  },
+  {
+    "id": "INV003",
+    "reservationId": "RES002",
+    "guestId": "G002",
+    "roomId": "202",
+    "roomNumber": "202",
+    "checkIn": "2024-02-14T14:00:00Z",
+    "checkOut": null,
+    "roomCharges": 0,
+    "activityCharges": 2100,
+    "tax": 252,
+    "total": 2352,
+    "paymentStatus": "Pending",
+    "paymentMethod": null,
+    "paymentDate": null,
+    "invoiceDate": "2024-02-15T10:00:00Z",
+    "items": [
+      {
+        "description": "Airport Transfer",
+        "quantity": 2,
+        "unitPrice": 800,
+        "total": 1600
+      },
+      {
+        "description": "Extra Bed",
+        "quantity": 1,
+        "unitPrice": 500,
+        "total": 500
+      }
+    ]
+  }
+]
+
