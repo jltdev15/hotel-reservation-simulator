@@ -17,7 +17,7 @@
           />
         </div>
 
-        <div v-if="guestData.firstName" class="border-t pt-6">
+        <div v-if="guestData?.firstName" class="border-t pt-6">
           <h2 class="text-xl font-semibold text-gray-800 mb-4">Reservation Details</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -129,7 +129,7 @@
           </div>
         </div>
 
-        <div v-if="guestData.firstName" class="flex justify-end space-x-3 pt-4 border-t">
+        <div v-if="guestData?.firstName" class="flex justify-end space-x-3 pt-4 border-t">
           <button
             type="button"
             @click="$router.push('/')"
@@ -164,7 +164,7 @@ const guestsStore = useGuestsStore()
 const reservationsStore = useReservationsStore()
 const roomsStore = useRoomsStore()
 
-const guestData = ref<Partial<Guest>>({})
+const guestData = ref<Guest | undefined>(undefined)
 const selectedRoomType = ref<string>('')
 
 const reservationData = ref({
@@ -204,17 +204,28 @@ watch([() => reservationData.value.checkIn, () => reservationData.value.checkOut
 })
 
 function handleGuestSubmit(data: Omit<Guest, 'id' | 'createdAt' | 'loyaltyPoints'>) {
-  guestData.value = data
+  // Store the guest data temporarily - we'll create the guest when submitting reservation
+  guestData.value = data as Guest
 }
 
 function handleGuestCancel() {
-  guestData.value = {}
+  guestData.value = undefined
 }
 
 function handleSubmit() {
-  if (!guestData.value.firstName || !reservationData.value.roomId) return
+  if (!guestData.value || !guestData.value.firstName || !reservationData.value.roomId) return
 
-  const newGuest = guestsStore.createGuest(guestData.value as Omit<Guest, 'id' | 'createdAt' | 'loyaltyPoints'>)
+  const newGuest = guestsStore.createGuest({
+    firstName: guestData.value.firstName,
+    lastName: guestData.value.lastName,
+    email: guestData.value.email,
+    phone: guestData.value.phone,
+    address: guestData.value.address,
+    nationality: guestData.value.nationality,
+    idType: guestData.value.idType,
+    idNumber: guestData.value.idNumber,
+    preferences: guestData.value.preferences
+  })
 
   const checkInISO = new Date(reservationData.value.checkIn).toISOString()
   const checkOutISO = new Date(reservationData.value.checkOut).toISOString()

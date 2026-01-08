@@ -18,7 +18,7 @@ export const useHousekeepingStore = defineStore('housekeeping', () => {
   const highPriorityTasks = computed(() => tasks.value.filter((t) => t.priority === 'High'))
 
   // Actions
-  function createTask(taskData: Omit<HousekeepingTask, 'id' | 'createdAt' | 'status'>): HousekeepingTask {
+  function createTask(taskData: Omit<HousekeepingTask, 'id' | 'createdAt' | 'status' | 'startedAt' | 'completedAt'>): HousekeepingTask {
     const newTask: HousekeepingTask = {
       ...taskData,
       id: generateId('HK', tasks.value.map((t) => t.id)),

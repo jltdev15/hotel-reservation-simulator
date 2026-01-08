@@ -164,9 +164,10 @@ const activeReservations = computed(() => {
 const availableRooms = computed(() => {
   if (!selectedReservation.value) return []
 
+  const reservation = selectedReservation.value
   const rooms = roomsStore.availableRooms.filter((room) => {
     // Exclude current room
-    if (room.id === selectedReservation.value!.roomId) return false
+    if (room.id === reservation.roomId) return false
     
     // Filter by type if selected
     if (selectedRoomType.value && room.type !== selectedRoomType.value) return false
@@ -174,9 +175,9 @@ const availableRooms = computed(() => {
     // Check availability for reservation dates
     return reservationsStore.isRoomAvailableForDates(
       room.id,
-      selectedReservation.value.checkIn,
-      selectedReservation.value.checkOut,
-      selectedReservation.value.id
+      reservation.checkIn,
+      reservation.checkOut,
+      reservation.id
     )
   })
 

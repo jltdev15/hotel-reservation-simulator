@@ -45,7 +45,7 @@ export const useGuestsStore = defineStore('guests', () => {
   function updateGuest(guestId: string, updates: Partial<Guest>): void {
     const index = guests.value.findIndex((g) => g.id === guestId)
     if (index !== -1) {
-      guests.value[index] = { ...guests.value[index], ...updates }
+      guests.value[index] = { ...guests.value[index], ...updates } as Guest
       saveToLocalStorage(STORAGE_KEYS.GUESTS, guests.value)
     }
   }
